@@ -1,11 +1,15 @@
 import { Header } from "components/header/Header";
-import { Home } from "pages/home/Home";
+import MainArea from "components/mainArea/MainArea";
+import Thumbnail from "components/thumbnail/Thumbnail";
 
 function App() {
   return (
-    <Home>
+    <>
       <Header />
-    </Home>
+      <MainArea>
+        <Thumbnail />
+      </MainArea>
+    </>
   );
 }
 

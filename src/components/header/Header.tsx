@@ -38,7 +38,8 @@ export const Header = () => {
 };
 
 const HeaderArea = styled.header`
-  height: 8rem;
+  width: 100vw;
+  position: fixed;
 `;
 const NavArea = styled.nav`
   display: flex;
